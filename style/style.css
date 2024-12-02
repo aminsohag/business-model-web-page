@@ -92,7 +92,7 @@ header{
 /* second section */
 .card-item{
     text-align: center;
-    /* border-radius: 0.5rem; */
+    border-radius: 0.5rem;
     padding: 2rem;
     border: 1px solid red;
 }
@@ -118,10 +118,10 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem; 
-}
+} 
 
 /* third section */
-.project{
+/* .project{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -147,10 +147,10 @@ header{
     background-color: rgb(237, 238, 238);
     margin-top: 3rem ;
     padding: 2rem 0;
-}
+} */
 
 /* footer */
-.foot-first{
+/* .foot-first{
     background-color: rgb(87, 87, 204);
 }
 .foot{
@@ -167,7 +167,7 @@ header{
     display: flex;
     /* justify-content: space-between; */
 }
-.n2nd{
+/* .n2nd{
     width: 48%;
 }
 .footer-title{
@@ -215,4 +215,4 @@ form{
     background-color: rgb(66, 66, 165);
     text-align: center;
     padding: 2rem;
-}
+} */ 
