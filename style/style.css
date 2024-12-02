@@ -121,7 +121,7 @@ header{
 } 
 
 /* third section */
-/* .project{
+.project{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -147,7 +147,7 @@ header{
     background-color: rgb(237, 238, 238);
     margin-top: 3rem ;
     padding: 2rem 0;
-} */
+}
 
 /* footer */
 /* .foot-first{
