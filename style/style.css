@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* navbar */
+.navbar-items{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-left: 1.5rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 2rem;
+}
+.logo{
+    width: 25%;
+}
+
+/* banner */
+.banner-text{
+    width: 48%;
+}
+.banner-image{
+    width: 48%;
+    
+}
+.ban-img{
+    width: 100%;
+    height: 300px;
+}
+.banner-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding-bottom: 3rem;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin:1rem 0 1rem 0; 
+}
+.banner-des{
+    font-size: 1rem;
+    color: white;
+}
+header{
+    background-color: rgb(87, 87, 204);
+}
+
+
+/* main */
+.about, .second-sec{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about-img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.about-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0 2rem 0;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.about-des{
+    width: 70%;
+}
+
+/* second section */
+.card-item{
+    text-align: center;
+    /* border-radius: 0.5rem; */
+    padding: 2rem;
+    border: 1px solid red;
+}
+.ci2{
+    background-color: rgb(87, 87, 204);
+    color: white;
+}
+.card-item h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.card-item p{
+    margin-bottom: 1rem;
+}
+.card-banner{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 4rem 0 1rem 0;
+}
+.card-grid{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; 
+}
+
+/* third section */
+.project{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.pro-card{
+    width: 48%;
+}
+.pro-img{
+    width: 100%;
+    height: 300px;
+}
+.project-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.pro-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.third-sec{
+    background-color: rgb(237, 238, 238);
+    margin-top: 3rem ;
+    padding: 2rem 0;
+}
+
+/* footer */
+.foot-first{
+    background-color: rgb(87, 87, 204);
+}
+.foot{
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.from{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.input{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.n2nd{
+    width: 48%;
+}
+.footer-title{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.foot{
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+
+}
+.title{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.foot-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+textarea{
+    height: 120px;
+}
+form{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.btn{
+    background-color: rgb(14, 14, 139);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.foot-second{
+    background-color: rgb(66, 66, 165);
+    text-align: center;
+    padding: 2rem;
+}
